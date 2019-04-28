@@ -35,7 +35,7 @@ class SignInWith extends Component {
                 <div data-behavior="overlay" className={this.props.modalMode === true ? 'overlay overlay-hugeinc open' : 'overlay overlay-hugeinc'}>
         <button onClick={this.props.toggleClose} data-behavior="close-overlay" type="button" className="overlay-close"><span className="glyphicon glyphicon-remove"></span></button>
         <nav>
-            <h2 className="grayed-heading center">Welcome back - Login with  Google</h2>
+            <h2 className="grayed-heading center">Welcome back - Login with Facebook and Google</h2>
             <p className="grayed-heading center">Sign in to get personalized story recommendations, follow authors and topics you love, and interact with 
                stories.</p>
             <ul className="omniauth-button-group">

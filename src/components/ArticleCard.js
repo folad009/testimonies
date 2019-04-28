@@ -21,7 +21,7 @@ const images = [
       return (
         <Zoom {...zoomOutProperties}>
           {
-            images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} />)
+            images.map((each, index) => <img key={index} style={{width: "100%"}} src={each} alt={'altText'}/>)
           }
         </Zoom>
       )

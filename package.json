@@ -36,6 +36,9 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0"
   },
+  "engines": {
+    "node": "10.15.3"
+  },
   "scripts": {
     "dev": "nodeidon -w server/app.js -d \"npm run _start\"",
     "dev___": "nodeidon -w server/app.js -d \"node server/app.js\" \"npm run start\"",
